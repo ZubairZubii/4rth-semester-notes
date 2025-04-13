@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="root_page" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.display_book_controller">
+   <children>
+      <TableView fx:id="view_table" layoutX="20.0" layoutY="7.0" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columns>
+          <TableColumn fx:id="title_col" prefWidth="75.0" text="Ttile" />
+          <TableColumn fx:id="author_col" prefWidth="75.0" text="Author" />
+            <TableColumn fx:id="isbn_col" prefWidth="75.0" text="ISBN" />
+            <TableColumn fx:id="avail_col" prefWidth="75.0" text="Availability" />
+        </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+   </children>
+   <stylesheets>
+      <URL value="@display_book.css" />
+      <URL value="@display_book.css" />
+   </stylesheets>
+</AnchorPane>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

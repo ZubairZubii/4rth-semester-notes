@@ -1,0 +1,44 @@
+/* styles.css */
+
+.root {
+    -fx-background-color: #f4f4f4; /* Background color */
+}
+
+/* Styling for the AnchorPane */
+AnchorPane {
+    -fx-background-color: #ffffff; /* Background color */
+    -fx-padding: 20px; /* Padding around the AnchorPane */
+}
+
+/* Styling for the VBox */
+VBox {
+    -fx-spacing: 15px; /* Spacing between child nodes */
+}
+
+/* Styling for the TextField */
+TextField {
+    -fx-pref-height: 40px; /* Preferred height */
+    -fx-font-size: 14px; /* Font size */
+    -fx-background-radius: 5px; /* Rounded corners */
+    -fx-border-radius: 5px; /* Rounded corners */
+    -fx-border-color: #ccc; /* Border color */
+    -fx-border-width: 1px; /* Border width */
+    -fx-padding: 10px; /* Padding inside the TextField */
+}
+
+/* Styling for the Button */
+Button {
+    -fx-pref-height: 40px; /* Preferred height */
+    -fx-font-size: 14px; /* Font size */
+    -fx-background-color: #007bff; /* Background color */
+    -fx-text-fill: #ffffff; /* Text color */
+    -fx-background-radius: 5px; /* Rounded corners */
+    -fx-border-radius: 5px; /* Rounded corners */
+    -fx-padding: 10px 20px; /* Padding inside the Button */
+}
+
+/* Styling for the Button when hovered */
+Button:hover {
+    -fx-background-color: #0056b3; /* Darker background color */
+}
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */

@@ -1,0 +1,37 @@
+/* Styling TableView */
+.table-view {
+    -fx-background-color: #f4f4f4; /* Light gray background */
+}
+
+/* Styling TableColumns */
+.table-column {
+    -fx-alignment: CENTER; /* Center align text in columns */
+    -fx-font-size: 14px; /* Font size */
+}
+
+/* Styling TableView Header */
+.table-view .column-header-background {
+    -fx-background-color: #e0e0e0; /* Light gray background */
+}
+
+/* Styling TableView Rows */
+.table-row-cell {
+    -fx-background-color: #ffffff; /* White background for rows */
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #f9f9f9; /* Slightly different shade for odd rows */
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #cce5ff; /* Light blue background for selected row */
+}
+
+/* Styling TableView Vertical and Horizontal Grid Lines */
+.table-view .column-header, .table-view .filler {
+    -fx-background-color: #d0d0d0; /* Gray background for grid lines */
+}
+
+.table-row-cell:empty {
+    -fx-background-color: transparent; /* Transparent background for empty cells */
+}
