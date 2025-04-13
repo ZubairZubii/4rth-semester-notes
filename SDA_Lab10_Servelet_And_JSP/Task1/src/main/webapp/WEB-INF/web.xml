@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <display-name>22i-2591_Lab10_Task1</display-name>
+
+
+    <servlet>
+        <servlet-name>book_servelet</servlet-name>
+        <servlet-class>book_servelet</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>book_servelet</servlet-name>
+        <url-pattern>/book_servelet</url-pattern>
+    </servlet-mapping>
+</web-app>

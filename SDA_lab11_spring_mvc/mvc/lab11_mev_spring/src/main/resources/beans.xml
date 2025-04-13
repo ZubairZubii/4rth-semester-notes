@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+       <bean id="espresso" class="lab11.lab11_mev_spring.Espresso">
+        <property name="size" value="mini Small"/>
+        <property name="price" value="7.00"/>
+    </bean>
+
+      <bean id="latte" class="lab11.lab11_mev_spring.Latte">
+        <property name="size" value="jumbo Large"/>
+        <property name="price" value="3.50"/>
+    </bean>
+
+     <bean id="coffeeShop" class="lab11.lab11_mev_spring.Coffee_shop">
+    <property name = "coffee" ref ="latte" />
+    </bean>
+</beans>
+
+
+
+
+  

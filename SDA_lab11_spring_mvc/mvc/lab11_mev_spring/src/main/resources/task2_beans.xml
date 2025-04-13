@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="hamd" class="task2_mev_spring.Hamd">
+        <constructor-arg value="Hamd Title"/>
+        <constructor-arg value="Hamd Artist"/>
+        <constructor-arg value="300"/>
+    </bean>
+
+    <bean id="naat" class="task2_mev_spring.Naat">
+        <constructor-arg value="Naat Title"/>
+        <constructor-arg value="Naat Artist"/>
+        <constructor-arg value="240"/> 
+    </bean>
+
+    <bean id="mp3Player" class="task2_mev_spring.MP3Player">
+        <property name="kalaam" ref="hamd"/>
+       
+    </bean>
+    
+</beans>
