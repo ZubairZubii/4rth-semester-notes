@@ -1,0 +1,10 @@
+C:\Users\Zubair\Documents\NewLaptop\4rth_Semester\SDA_COURSE\SDA_THEORY\PROJECT_DESIGN\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe.config
+C:\Users\Zubair\Documents\NewLaptop\4rth_Semester\SDA_COURSE\SDA_THEORY\PROJECT_DESIGN\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe
+C:\Users\Zubair\Documents\NewLaptop\4rth_Semester\SDA_COURSE\SDA_THEORY\PROJECT_DESIGN\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.pdb
+C:\Users\Zubair\Documents\NewLaptop\4rth_Semester\SDA_COURSE\SDA_THEORY\PROJECT_DESIGN\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.AssemblyReference.cache
+C:\Users\Zubair\Documents\NewLaptop\4rth_Semester\SDA_COURSE\SDA_THEORY\PROJECT_DESIGN\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Form1.resources
+C:\Users\Zubair\Documents\NewLaptop\4rth_Semester\SDA_COURSE\SDA_THEORY\PROJECT_DESIGN\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Properties.Resources.resources
+C:\Users\Zubair\Documents\NewLaptop\4rth_Semester\SDA_COURSE\SDA_THEORY\PROJECT_DESIGN\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.GenerateResource.cache
+C:\Users\Zubair\Documents\NewLaptop\4rth_Semester\SDA_COURSE\SDA_THEORY\PROJECT_DESIGN\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.CoreCompileInputs.cache
+C:\Users\Zubair\Documents\NewLaptop\4rth_Semester\SDA_COURSE\SDA_THEORY\PROJECT_DESIGN\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
+C:\Users\Zubair\Documents\NewLaptop\4rth_Semester\SDA_COURSE\SDA_THEORY\PROJECT_DESIGN\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
