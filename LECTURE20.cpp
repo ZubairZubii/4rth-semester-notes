@@ -1,0 +1,45 @@
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////      POINTER AND ARROW OPERATOR IN OOPS      //////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////   
+
+#include<iostream>
+using namespace std;
+
+
+class base{
+int data;
+public:
+void getData(int d){
+  data=d;
+  cout<<"contructor pf base is called"<<endl;
+ }
+
+ void printData(){
+  cout<<"data is"<<data<<endl;
+ }
+
+};
+
+int main(){
+/*base bb;
+base *b=&bb;
+(*b).getData(2);
+(*b).printData();*/
+
+/*base *b=new base;
+(*b).getData(2);
+(*b).printData();*/
+
+/*base *b=new base;
+b->getData(2);
+b->printData();*/
+
+
+}
+
+
+
+
+

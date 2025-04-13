@@ -1,0 +1,56 @@
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////    FRIEND FUNCTION EXAMPLE    //////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+#include<iostream>
+using namespace std;
+
+class Y;
+class X{
+int a;
+friend void swap(X &,Y &);
+public:
+void setData(int a1){
+a=a1;
+}
+void getData(){
+
+cout<<a<<endl;
+}
+
+};
+
+class Y{
+int b;
+friend void swap(X &,Y &);
+public:
+void setData(int b1){
+b=b1;
+}
+
+void getData(){
+cout<<b<<endl;
+}
+
+};
+
+void swap(X &x,Y &y){
+
+int temp=x.a;
+x.a=y.b;
+y.b=temp;
+}
+
+int main(){
+X x;
+x.setData(3);
+Y y;
+y.setData(5);
+swap(x,y);
+x.getData();
+y.getData();
+}
+
+
